@@ -4,8 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background-color: ;
-  color: rgb(0, 0, 0);
+  background-color: #01141a;
 }
 ul, li{
   display: flex;
@@ -20,6 +19,10 @@ ul, li{
 li:hover{
   color: rgb(227, 242, 255);
   transition: .2s;
+}
+
+.logo:hover{
+  background-color: rgb(0, 0, 0);
 }
 
 .logo{
@@ -38,4 +41,8 @@ header{
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px;
+}
+
+h1, p, h2{
+  color: rgb(212, 212, 212);
 }
