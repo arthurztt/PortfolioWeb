@@ -6,6 +6,7 @@
 body{
   background-color: #01141a;
 }
+
 ul, li{
   display: flex;
   list-style-type: none;
