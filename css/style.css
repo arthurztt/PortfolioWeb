@@ -9,12 +9,27 @@ body{
 
 .title-txt{
   font-family: 'Montserrat', sans-serif;
+}
+
+h1>a{
   cursor: pointer;
 }
 
-.aboutme-txt{
-  font-family: 'Raleway', sans-serif;
+.abt-texto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;  
+  width: 600px;
+  margin-left: 50px;
+}
 
+.abt-strong{
+  font-weight: bold;
+}
+
+.abt-strong:hover{
+  color: #ffffff;
+  transition: 0.2s;
+  color: rgb(37, 29, 155);
 }
 
 .title-div{
@@ -26,7 +41,6 @@ body{
 h1>a:hover{
   color: rgb(71, 61, 219);
   transition: 0.5s;
- 
 }
 
 
