@@ -11,6 +11,22 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.teclogos-div{
+  width: 50px;
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.teclogos-div>img{
+  margin-right: 10px;
+}
+
+.teclogos-div>img:hover{
+ transform: scale(1.1);
+ transition: 0.2s;
+}
+
 h1>a{
   cursor: pointer;
 }
@@ -18,8 +34,9 @@ h1>a{
 .abt-texto{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;  
-  width: 600px;
+  width: 610px;
   margin-left: 50px;
+  margin-top: 30px;
 }
 
 .abt-strong{
@@ -29,17 +46,17 @@ h1>a{
 .abt-strong:hover{
   color: #ffffff;
   transition: 0.2s;
-  color: rgb(37, 29, 155);
+  color: rgb(59, 48, 207);
 }
 
 .title-div{
   width: 50%;
   font-size: 30px;
-  margin: 50px
+  margin: 50px 50px 10px 50px;
 }
 
 h1>a:hover{
-  color: rgb(71, 61, 219);
+  color: rgb(59, 48, 207);
   transition: 0.5s;
 }
 
@@ -64,6 +81,11 @@ li:hover{
 .logo{
   width: 100px;
   margin-left: 35px;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 nav{
