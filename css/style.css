@@ -14,7 +14,7 @@ body{
 .teclogos-div{
   width: 50px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-bottom: 30px;
   cursor: pointer;
 }
@@ -35,12 +35,13 @@ h1>a{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;  
   width: 610px;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-top: 30px;
 }
 
 .abt-strong{
   font-weight: bold;
+  cursor: pointer;
 }
 
 .abt-strong:hover{
@@ -50,17 +51,14 @@ h1>a{
 }
 
 .title-div{
-  width: 50%;
   font-size: 30px;
-  margin: 50px 50px 10px 50px;
+  margin: 100px 90px 10px 90px;
 }
 
 h1>a:hover{
   color: rgb(59, 48, 207);
   transition: 0.5s;
 }
-
-
 
 ul, li{
   display: flex;
@@ -99,6 +97,23 @@ header{
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px;
+}
+
+.photo-div{
+  margin-top: 5px;
+  margin-left: 400px;
+}
+
+.personal-photo{
+  width: 390px;
+}
+
+.main-content{
+ width: auto;
+}
+
+.main-container{
+  display: flex;
 }
 
 h1, p, h2, h3{
