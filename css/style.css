@@ -68,8 +68,8 @@ ul, li{
   list-style-type: none;
   justify-content: space-between;
   color: rgb(208, 208, 208);
-  margin-right: 55px;
-  font-weight: 200;
+  margin-right: 32px;
+  font-weight: 300;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
 }
@@ -92,6 +92,7 @@ li:hover{
 nav{
   font-size: 20px;
   width: 450px;
+  margin-right: 25px;
 }
 
 header{
@@ -126,18 +127,36 @@ h1, p, h2, h3{
 
 .abtme-title{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 2.4rem;
   display: flex;
   justify-content: center;
   margin-top: 110px;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 
 .about-main-txt{
   font-size: 20px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  width: 750px;
+}
+
+.main-txt-div{
+  display: flex;
+  justify-content: center;
+}
+
+.abt-strong-2{
+  font-weight: bold;
 }
 
 .aboutme-div{
   text-align: center;
   border-bottom: #08232beb solid;
 }
+
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
