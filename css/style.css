@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:wght@300&family=Poppins:wght@300;400;500&family=Raleway:wght@100;300;400&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -128,6 +130,14 @@ h1, p, h2, h3{
   display: flex;
   justify-content: center;
   margin-top: 110px;
-  padding-bottom: 110px;
+  padding-bottom: 50px;
+}
+
+.about-main-txt{
+  font-size: 20px;
+}
+
+.aboutme-div{
+  text-align: center;
   border-bottom: #08232beb solid;
 }
