@@ -95,8 +95,8 @@ li:hover{
 }
 
 .logo{
-  margin: 5px;
-  width: 135px;
+  margin: 15px;
+  width: 130px;
   margin-left: 35px;
 }
 
@@ -152,9 +152,13 @@ h1, p, h2, h3{
 
 .about-main-txt{
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 55px;
   font-family: 'Raleway', sans-serif;
   width: 750px;
+  background-color: #00344442;
+  padding: 35px ;
+  border-radius: 2px;
+  border: 3px solid #003c4f42;
 }
 
 .main-txt-div{
@@ -175,6 +179,33 @@ h1, p, h2, h3{
 .aboutme-div{
   text-align: center;
   border-bottom: #08232beb solid;
+}
+
+.prj-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  padding-bottom: 45px;
+}
+
+.crud-tech-imgs>img{
+  width: 45px;
+}
+
+.crud-access-div{
+  background-color: #a8b7bb;
+  opacity: 0.5;
+  width: 60px;
+}
+.crud-access-div>img{
+  width: 25px;
+}
+
+.projects-container{
+  margin-left: 70px;
+  background-color: #041f27;
 }
 
 /* font-family: 'Manrope', sans-serif;
