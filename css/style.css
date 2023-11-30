@@ -10,6 +10,21 @@ body{
   background-color: #01141a;
 }
 
+body::-webkit-scrollbar {
+  width: 13px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #002f3e;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #01141a;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #06242e;  /* creates padding around scroll thumb */
+}
+
+
 .title-txt{
   font-family: 'Montserrat', sans-serif;
 }
@@ -50,7 +65,7 @@ h1>a{
 .abt-strong:hover{
   color: #ffffff;
   transition: 0.2s;
-  color: rgb(59, 48, 207);
+  color: #0077b6;
 }
 
 .title-div{
@@ -59,7 +74,7 @@ h1>a{
 }
 
 h1>a:hover{
-  color: rgb(59, 48, 207);
+  color: #0096c7;
   transition: 0.5s;
 }
 
@@ -68,7 +83,7 @@ ul, li{
   list-style-type: none;
   justify-content: space-between;
   color: rgb(208, 208, 208);
-  margin-right: 32px;
+  margin-right: 35px;
   font-weight: 300;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -80,7 +95,8 @@ li:hover{
 }
 
 .logo{
-  width: 100px;
+  margin: 5px;
+  width: 135px;
   margin-left: 35px;
 }
 
@@ -92,7 +108,7 @@ li:hover{
 nav{
   font-size: 20px;
   width: 450px;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 header{
@@ -130,13 +146,13 @@ h1, p, h2, h3{
   font-size: 2.4rem;
   display: flex;
   justify-content: center;
-  margin-top: 110px;
+  margin-top: 75px;
   padding-bottom: 45px;
 }
 
 .about-main-txt{
   font-size: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   width: 750px;
 }
@@ -148,6 +164,12 @@ h1, p, h2, h3{
 
 .abt-strong-2{
   font-weight: bold;
+}
+
+.abt-strong-2:hover{
+  color: #0077b6;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .aboutme-div{
