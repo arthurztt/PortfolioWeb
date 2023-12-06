@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #002f3e;        /* color of the tracking area */
+  background: #071e26;        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
@@ -191,7 +191,11 @@ h1, p, h2, h3{
 }
 
 .crud-tech-imgs>img{
-  width: 45px;
+  width: 25px;
+}
+
+.crud-div>img{
+  width: 250px;
 }
 
 .crud-access-div{
@@ -204,6 +208,7 @@ h1, p, h2, h3{
 }
 
 .projects-container{
+  display: flex;
   margin-left: 70px;
   background-color: #041f27;
 }
