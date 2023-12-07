@@ -191,11 +191,11 @@ h1, p, h2, h3{
 }
 
 .crud-tech-imgs>img{
-  width: 45px;
+  justify-content: space-between;
+  width: 28px;
 }
 
 .crud-access-div{
-  background-color: #a8b7bb;
   opacity: 0.5;
   width: 60px;
 }
@@ -208,8 +208,44 @@ h1, p, h2, h3{
   background-color: #041f27;
 }
 
+.div-txt{
+  margin: 5px 0px 0px 15px;
+}
+
+.crud-div>img{
+  width: 270px;
+}
+
+.projects-container{
+  width: 38%;
+  display: flex;
+  padding: 15px 0px 10px 15px;
+}
+
+.txt-crud-abt{
+  width: 420px;
+  font-family: 'Raleway', sans-serif;
+}
+
+hr{
+  margin-bottom: 10px;
+}
+
+.title-crud-txt{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.div-subtxt{
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
 /* font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; 
 */
+
+/* topo, direita, baixo, esquerda (Ordem valores) */
