@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:wght@300&family=Poppins:wght@300;400;500&family=Raleway:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@300;400&family=Montserrat:wght@300&family=Poppins:wght@300;400;500&family=Raleway:wght@100;300;400&display=swap');
 
 *{
   padding: 0;
@@ -211,6 +211,31 @@ h1, p, h2, h3{
   margin: 10px 0px 0px 40px;
 }
 
+.caution-img{
+  filter: invert();
+  width: 20px;
+}
+
+.caution-txt{
+  width: 350px;
+  font-size: 0.8rem;
+  padding-left: 6px;
+}
+
+.caution-div{
+  display: flex;
+  opacity: 0.2;
+  margin-left: 397px;
+  padding-top: 6px;
+  align-items: center;
+}
+
+.caution-div:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+}
+
 .crud-div>img{
   width: 270px;
 }
@@ -291,7 +316,8 @@ hr{
 }
 
 .project-subtitle{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 19px;
   padding-top: 15px;
   padding-left: 18px;
@@ -333,12 +359,14 @@ footer{
 .contact-txt{
   padding-right: 10px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
-/* font-family: 'Manrope', sans-serif;
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif; 
+font-family: 'Raleway', sans-serif;
 */
 
 /* topo, direita, baixo, esquerda (Ordem valores) */
