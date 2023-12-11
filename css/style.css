@@ -300,9 +300,6 @@ hr{
   opacity: 1;
 }
 
-.projects-div{
-}
-
 .crud-techs:hover{
   transform: scale(1.2);
   cursor: pointer;
@@ -336,6 +333,7 @@ footer{
   gap: 50%;
   margin-left: 160px;
   padding-top: 20px;
+  align-items: center;
 }
 
 .footer-contacts-div{
@@ -346,12 +344,6 @@ footer{
   align-items: center;
 }
 
-.footer-contacts-div>img{
-  width: 25px;
-}
-.footer-contacts-div>.github-icon{
-  width: 32px;
-}
 .develop-txt{
   font-family: 'Poppins', sans-serif;
 }
@@ -362,6 +354,22 @@ footer{
   font-weight: bold;
 }
 
+.footer-contacts-div>.github-icon{
+  width: 31px;
+  padding-bottom: 5px;
+}
+
+.insta-logo{
+  padding-right: 4px;
+}
+#contacts-hover{
+  width: 25px;
+  padding-bottom: 5px;
+}
+
+#contacts-hover:hover,.github-icon:hover{
+  transform: scale(1.2);
+}
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif;
