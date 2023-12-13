@@ -168,12 +168,7 @@ h1, p, h2, h3{
 
 .abt-strong-2{
   font-weight: bold;
-}
-
-.abt-strong-2:hover{
   color: #0077b6;
-  transition: 0.2s;
-  cursor: pointer;
 }
 
 .aboutme-div{
@@ -359,17 +354,24 @@ footer{
   padding-bottom: 5px;
 }
 
+.github-icon{
+  width: 29px;
+  margin-bottom: 1px;
+}
+
 .insta-logo{
+  margin-top: 3px;
   padding-right: 4px;
 }
 #contacts-hover{
-  width: 25px;
+  width: 20px;
   padding-bottom: 5px;
 }
 
 #contacts-hover:hover,.github-icon:hover{
   transform: scale(1.2);
 }
+
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif;
