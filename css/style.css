@@ -51,7 +51,7 @@ h1>.title-txt-1{
 
 .abt-texto{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;  
+  font-size: 1.2em;  
   width: 610px;
   margin-left: 90px;
   margin-top: 30px;
@@ -69,7 +69,7 @@ h1>.title-txt-1{
 }
 
 .title-div{
-  font-size: 30px;
+  font-size: 1.8em;
   margin: 100px 90px 10px 90px;
 }
 
@@ -117,24 +117,27 @@ header{
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px;
+  width: 100%;
 }
 
 .photo-div{
-  margin-top: 5px;
-  margin-left: 400px;
+  justify-content: space-around;
+  position: relative;
+  bottom: 60px;
+  z-index: -1;
+
 }
 
 .personal-photo{
   width: 390px;
 }
 
-.main-content{
- width: auto;
-}
 
 .main-container{
+  width: 100%;
   display: flex;
   border-bottom: #08232beb solid;
+  justify-content: space-around;
 }
 
 h1, p, h2, h3{
@@ -189,6 +192,10 @@ h1, p, h2, h3{
   width: 27px;
 }
 
+.php-spacing{
+  padding-left: 5px;
+}
+
 .crud-access-div{
   opacity: 0.5;
   width: 60px;
@@ -231,12 +238,24 @@ h1, p, h2, h3{
   transition: 0.2s;
 }
 
+.crud-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .crud-div>img{
   width: 270px;
 }
 
 .crud-div>.design-img{
   border-bottom-width: 100px;
+}
+
+.projects-section{
+  width: 100%;
 }
 
 .projects-container{
@@ -283,6 +302,26 @@ hr{
   margin-left: 230px;
 }
 
+.img-spacing2,.access-img{
+  width: 20px;
+}
+
+.img-spacing2{
+  width: 30px;
+}
+
+.img-spacing2,.access-img{
+  opacity: 0.4;
+}
+
+.img-spacing2{
+  margin-left: 0px;
+}
+
+.img-spacing3{
+  margin-right: 185px;
+}
+
 .access-img{
   filter: invert();
   padding-bottom: 4px;
@@ -303,16 +342,18 @@ hr{
 
 .project-main-container{
   display: flex;
-  gap: 230px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
   margin-bottom: 105px;
+  width: 100%;
 }
 
 .project-subtitle{
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 19px;
-  padding-top: 15px;
-  padding-left: 18px;
+  padding: 10px 0px 0px 0px;
 }
 
 #gimp-img{
@@ -371,6 +412,15 @@ footer{
 #contacts-hover:hover,.github-icon:hover{
   transform: scale(1.2);
 }
+
+.php-logo{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(0%) hue-rotate(142deg) brightness(108%) contrast(107%);
+}
+
+.img-redmension{
+  height: 175px;
+}
+
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif;
