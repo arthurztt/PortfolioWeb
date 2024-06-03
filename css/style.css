@@ -421,6 +421,13 @@ footer{
   transform: scale(1.2);
 }
 
+.cards-main-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
 .php-logo{
   filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(0%) hue-rotate(142deg) brightness(108%) contrast(107%);
 }
@@ -437,8 +444,6 @@ footer{
   margin-top: 65px;
   padding-bottom: 45px;
 }
-/* 
-filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(6697%) hue-rotate(221deg) brightness(104%) contrast(99%); */
 
 .stack-type{
   display: flex;
@@ -459,8 +464,12 @@ filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(6697%) hue-
   filter: brightness(0) saturate(100%) invert(88%) sepia(10%) saturate(436%) hue-rotate(177deg) brightness(115%) contrast(97%);
 }
 
-.cards-main-section{
-  padding: 50px 50px 50px 100px;
+.db-type{
+  background-color: #112c8f;
+}
+
+.db-type-img{
+  width: 18px;
 }
 
 .cards-div{
@@ -472,7 +481,8 @@ filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(6697%) hue-
 }
 
 .stack-name{
-  color: #ebeded;
+  font-family: 'Poppins', sans-serif;
+  color: #eff5f5e6;
 }
 
 .cards-div > .divisor-card{
@@ -495,15 +505,31 @@ filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(6697%) hue-
 
 .stack-img{
   width: 70px;
+}
+
+.php-logo-card{
   filter: brightness(0) saturate(100%) invert(52%) sepia(35%) saturate(457%) hue-rotate(191deg) brightness(95%) contrast(80%);
 }
 
-.php-txt-1{
-  font-size: 14px;
+.content-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  gap: 20px;
 }
 
 .stack-about-txt{
-  width: 300px;
+  color: #f9feffea;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16 px;
+  width: 310px;
+}
+
+.pg-txt{
+  padding: 20px 0px 25px 0px;
 }
 
 /* font-family: 'Inter', sans-serif;
