@@ -24,6 +24,10 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #06242e;  /* creates padding around scroll thumb */
 }
 
+a{
+  text-decoration: none;
+}
+
 
 .title-txt{
   font-family: 'Montserrat', sans-serif;
@@ -423,9 +427,11 @@ footer{
 
 .cards-main-section{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   padding: 30px;
+  gap: 25px;
 }
 
 .php-logo{
@@ -465,11 +471,19 @@ footer{
 }
 
 .db-type{
-  background-color: #112c8f;
+  background-color: #2e4bb3;
+}
+
+.vcs-type{
+  background-color: #376805;
 }
 
 .db-type-img{
   width: 18px;
+}
+
+.pencil-diff{
+  width: 16px;
 }
 
 .cards-div{

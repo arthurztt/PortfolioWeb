@@ -12,9 +12,9 @@
     <a href="index.html"><img src="img/others/logo-branca.png" class="logo"></a>
     <nav class="navbar">
       <ul class="navItems">
-        <li>Sobre</li>
-        <li>Projetos</li>
-        <li>Contato</li>
+        <a href="#about"><li>Sobre</li></a>
+        <a href="#projects"><li>Projetos</li></a>
+        <a href="#contacts"><li>Contato</li></a>
       </ul>
     </nav>
   </header>
@@ -41,7 +41,7 @@
     </section>
   </div>
   </main>
-  <section class="aboutme-div">
+  <section class="aboutme-div" id="about">
     <div class="div-title">
       <h1 class="abtme-title">Sobre Mim</h1>
       <div class="main-txt-div">
@@ -49,7 +49,7 @@
     </div>
     </div>
   </section>
-  <section class="projects-section">
+  <section class="projects-section" id="projects">
     <div class="prj-title-div">
       <h1 class="prj-title">Projetos</h1>
     </div>
@@ -204,7 +204,6 @@
               <p class="stack-about-txt pg-txt">
                 O PostgreSQL é um sistema de gerenciamento de banco de dados objeto-relacional (ORDBMS) baseado no POSTGRES, Versão 4.2, desenvolvido pelo Departamento de Ciência da Computação da Universidade da Califórnia em Berkeley. 
               </p>
-              
             </div>
             <hr class="divisor-card">
           </div>
@@ -224,6 +223,54 @@
               </div>
               <hr class="divisor-card">
             </div>
+            <div class="cards-div">
+              <span class="stack-type vcs-type">
+                <img class="stack-type-img db-type-img" src="/img/others/file-earmark-zip.svg" title="Sistema de Controle de Versão">
+              </span>
+                <div class="card-header">
+                    <img class="stack-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                  <h3 class="stack-name">Git</h3>
+                </div>
+                <hr class="divisor-card">
+                <div class="content-card">
+                  <p class="stack-about-txt pg-txt">
+                    O Git é um sistema de controle de revisão distribuído, rápido, escalável e com um conjunto de comandos incomumente rico que oferece operações de alto nível e acesso completo aos seus recursos.
+                  </p>
+                </div>
+                <hr class="divisor-card">
+              </div>
+              <div class="cards-div">
+                <span class="stack-type">
+                  <img class="stack-type-img db-type-img" src="/img/others/braces.svg" title="Linguagem de Marcação de Texto">
+                </span>
+                  <div class="card-header">
+                    <img class="stack-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"/>
+                    <h3 class="stack-name">HTML</h3>
+                  </div>
+                  <hr class="divisor-card">
+                  <div class="content-card">
+                    <p class="stack-about-txt pg-txt">
+                      HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência ou a funcionalidade de uma página da web.
+                    </p>
+                  </div>
+                  <hr class="divisor-card">
+                </div>
+                <div class="cards-div">
+                  <span class="stack-type">
+                    <img class="stack-type-img pencil-diff" src="/img/others/pencil-fill.svg" title="SGBD (Sistema de Gerenciamento de Banco de Dados)">
+                  </span>
+                    <div class="card-header">
+                      <img class="stack-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"/>
+                      <h3 class="stack-name">CSS</h3>
+                    </div>
+                    <hr class="divisor-card">
+                    <div class="content-card">
+                      <p class="stack-about-txt pg-txt">
+                        O programa MySQL é um servidor robusto de bancos de dados SQL muito rápido, multi-tarefa e multi-usuário. O Servidor MySQL pode ser usado em sistemas de produção com alta carga e missão crítica bem como pode ser embutido em programa de uso em massa.
+                      </p>
+                    </div>
+                    <hr class="divisor-card">
+                  </div>
     </section>
   </section>
   </section>
@@ -232,7 +279,7 @@
       <div class="footer-develop-div">
         <p class="develop-txt">Developed by Arthur Azevedo</p>
       </div>
-      <div class="footer-contacts-div">
+      <div class="footer-contacts-div" id="contacts">
         <p class="contact-txt">
           Contatos:
         </p>
